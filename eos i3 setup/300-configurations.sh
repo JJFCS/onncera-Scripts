@@ -9,9 +9,9 @@ git clone https://github.com/JJFCS/onncera-I3-Status #
 git clone https://github.com/JJFCS/onncera-I3        #
 git clone https://github.com/JJFCS/onncera-TE        #
                                                      #
-git clone https://github.com/JJFCS/onncera-Bash      #
 git clone https://github.com/JJFCS/onncera-Scripts   #
 git clone https://github.com/JJFCS/onncera-Picom     #
+git clone https://github.com/JJFCS/onncera-Bash      #
                                                      #
 git clone https://github.com/JJFCS/onncera-neovim    #
 ######################################################
