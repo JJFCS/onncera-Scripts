@@ -1,0 +1,91 @@
+-- Onncera's i3 window manager setup
+
+
+-- Boot into the live environment of EOS
+-- use the partition manager to wipe any existing data on the drives
+-- use the calamares installer (online)
+		select no desktop environment
+-- Complete the necessary steps within the calamares installer to download EOS
+
+
+-- System freezes on large disk I/O
+-- maxperfwiz system performance script (https://gitlab.com/cscs/maxperfwiz)
+		script that assists the user in configuring a selection of
+		parameters with the purpose of increasing system performance
+
+
+-- Install neovim from source (https://github.com/neovim/neovim)
+		i.e. not through your distribution's package manager
+-- By installing neovim from source, updating it involves downloading the
+   latest source code, compiling it, and replacing the existing binary with the new one
+		Perform the exact same steps as when you first downloaded neovim from source
+		Remember to perform the following:
+			cd into the cloned directory
+				# cd neovim
+			stable release
+				# git checkout stable
+				# make CMAKE_BUILD_TYPE=RelWithDebInfo
+			etc etc...
+
+
+-- Packages to install
+	arandr
+	arc-gtk-theme-eos         (needs the EOS keyring)
+	archlinux-tweak-tool-git  (needs the Arcolinux keyring) (navigate to 'shells', 'extra', install all the packages listed)
+	awesome-terminal-fonts
+	biber                     (needed for vimtex)
+	ccache
+	clang
+	cmake
+	dmenu
+	dunst
+	fd
+	feh
+	gnome-themes-extra
+	gparted
+	gtk-engine-murrine
+	gvfs
+	gvfs-afc
+	gvfs-gphoto2
+	gvfs-mtp
+	gvfs-nfs
+	gvfs-smb
+	hsetroot
+	i3-wm
+	i3blocks
+	i3lock
+	i3status
+	lxappearance-gtk3
+	maim
+	mpv
+	neofetch
+	neovim
+	ninja
+	nodejs
+	picom
+	sddm                      (need to enable service using systemctl)
+	sublime-text-4            (needs the Arcolinux keyring)
+	texlab
+	texlive
+	thunar
+	thunar-archive-plugin
+	thunar-media-tags-plugin
+	thunar-volman
+	tmux
+	tree-sitter-cli
+	ttc-iosevka-slab
+	ttf-font-awesome
+	ttf-iosevka-nerd
+	ttf-iosevkaterm-nerd
+	ttf-jetbrains-mono
+	ttf-jetbrains-mono-nerd
+	ttf-martian-mono-nerd
+	ttf-ms-fonts              (needs the Arcolinux keyring)
+	vim
+	visual-studio-code-bin    (needs the Arcolinux keyring) (might take this out in the future... currently used for debugging purposes)
+	wezterm
+	xclip
+	xdotool
+	yt-dlp
+	zathura
+	zathura-pdf-poppler
