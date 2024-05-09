@@ -7,13 +7,13 @@ cd ~/Downloads/                                      #
 ######################################################
 git clone https://github.com/JJFCS/onncera-I3-Status #
 git clone https://github.com/JJFCS/onncera-I3        #
+git clone https://github.com/JJFCS/onncera-TE        #
                                                      #
 git clone https://github.com/JJFCS/onncera-Bash      #
 git clone https://github.com/JJFCS/onncera-Scripts   #
 git clone https://github.com/JJFCS/onncera-Picom     #
                                                      #
 git clone https://github.com/JJFCS/onncera-neovim    #
-git clone https://github.com/JJFCS/onncera-wezterm   #
 ######################################################
 
 ######################################################
@@ -24,6 +24,6 @@ mv onncera-Scripts Scripts                           #
 mv onncera-Picom picom                               #
                                                      #
 mv onncera-neovim nvim                               #
-mv onncera-wezterm wezterm                           #
+mv onncera-TE wezterm                                #
 ######################################################
 
