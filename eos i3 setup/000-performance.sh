@@ -1,10 +1,8 @@
 #!/bin/bash
 
-######################################################################################################################
-#
 # Check for updates on the script (https://gitlab.com/cscs/maxperfwiz)
 # Credit goes to the original author in the Gitlab link above
-#
+
 
 cd ~/Downloads/
 git clone https://gitlab.com/cscs/maxperfwiz
