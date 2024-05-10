@@ -11,5 +11,3 @@ cd ~/Downloads/maxperfwiz/
 
 chmod +x maxperfwiz
 
-./maxperfwiz
-
