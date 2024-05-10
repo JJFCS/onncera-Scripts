@@ -1,10 +1,10 @@
 #!/bin/bash
 
+######################################################################################################################
 #
-# Every once in a while, check for updates on the gitlab page
-# for maxperfwiz script (https://gitlab.com/cscs/maxperfwiz)
-#
+# Check for updates on the gitlab page for maxperfwiz script (https://gitlab.com/cscs/maxperfwiz)
 # Credit goes to the original author in the Gitlab link above
+#
 #
 
 cd ~/Downloads/
