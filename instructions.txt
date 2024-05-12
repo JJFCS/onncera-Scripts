@@ -1,6 +1,5 @@
-EOS i3 setup script instructions
+EOS I3 Setup Script Suggestion
 
-Before updating/creating your own personal scripts:
 Take inspiration from Arcolinux Nemesis setup scripts
 	- https://github.com/erikdubois/arcolinux-nemesis
 
