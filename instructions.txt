@@ -1,4 +1,4 @@
-EndeavourOS i3 setup script instructions
+EOS i3 setup script instructions
 
 Before updating/creating your own personal scripts:
 Take inspiration from Arcolinux Nemesis setup scripts
